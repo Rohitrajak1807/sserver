@@ -104,7 +104,7 @@ func parseHTTPReq(req []byte) (*Request, error) {
 	headers := parseHeaders(incomingHeaders)
 	request.Header = headers
 	entityBody := splits[headerLen:]
-	bytes.NewReader()
+
 	_ = entityBody
 	return request, nil
 }
